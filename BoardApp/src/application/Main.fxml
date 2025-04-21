@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller.MainController">
+   <children>
+      <Label alignment="CENTER" layoutX="337.0" layoutY="20.0" prefHeight="61.0" prefWidth="206.0" text="BoardApp" textAlignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnList" alignment="CENTER" layoutX="354.0" layoutY="144.0" mnemonicParsing="false" onAction="#list" prefHeight="55.0" prefWidth="173.0" text="LIST">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnExit" alignment="CENTER" layoutX="354.0" layoutY="245.0" mnemonicParsing="false" onAction="#exit" prefHeight="55.0" prefWidth="173.0" text="EXIT">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
